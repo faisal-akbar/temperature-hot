@@ -2,7 +2,7 @@
 class Weather {
   constructor(city) {
     // Place your api key from openweathermap here
-    this.apiKey = process.env.API_KEY;
+    this.apiKey = 'd560ed9ade1159e8743e074aab7081de';
     this.city = city;
   }
 
@@ -20,7 +20,3 @@ class Weather {
     this.city = city;
   }
 }
-
-// use dotenv to hide api key
-require('dotenv').config();
-// console.log(process.env);
