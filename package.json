@@ -1,0 +1,25 @@
+{
+  "name": "temperature-hot",
+  "version": "1.0.0",
+  "description": "[App demo](http://faisalcep.github.io/temperature-hot)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faisalcep/temperature-hot.git"
+  },
+  "author": "Faisal Akbar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faisalcep/temperature-hot/issues"
+  },
+  "homepage": "https://github.com/faisalcep/temperature-hot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "npm-start-command": "^1.0.1"
+  }
+}
